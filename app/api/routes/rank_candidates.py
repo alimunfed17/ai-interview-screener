@@ -15,7 +15,7 @@ def rank_candidates(payload: RankRequest):
         prompt = EVAL_PROMPT.replace("{answer}", candidate.answer)
 
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=prompt
         )
 
