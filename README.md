@@ -149,6 +149,8 @@ LLM_API_KEY=gemini-api-key
 
 ### Evaluate a Single Answer
 
+[Evaluate Answer Route](assets/Evaluate-Answer.png)
+
 ```bash
 curl -X POST "http://localhost:8000/api/v1/evaluate-answer/" \
   -H "Content-Type: application/json" \
@@ -160,6 +162,8 @@ curl -X POST "http://localhost:8000/api/v1/evaluate-answer/" \
 -----
 
 ### Rank Multiple Candidates
+
+[Rank Candidates Route](assets/Rank-Candidates.png)
 
 ```bash
 curl -X POST "http://localhost:8000/api/v1/rank-candidates/" \
